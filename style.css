@@ -10,6 +10,20 @@
   font-family: 'Helvetica Neue LT Pro', 'Helvetica', sans-serif;
 }
 
+body{
+  background: #4CA1AF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+  margin: 50px;
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Helvetica Neue LT Pro', 'Helvetica', sans-serif;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -19,7 +33,7 @@ a {
   font-size: 1.2em;
   display: block;
   /*width: 400px;*/
-  width: 58%;
+  width: 55%;
   float: left;
   margin: 0;
   padding: 20px;
@@ -188,11 +202,11 @@ a {
   text-shadow: 1px 1px 0px #fff;
 }
 #the-results {
-  width: 40%;
+  width: 43%;
   float: right;
   /*min-width: 400px;*/
   margin: 0;
-  /*padding: 20px;*/
+  padding: 10px;
   border: 2px solid #e0e0e0;
   background: #00544b;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #003b34), color-stop(1, #00544b));
@@ -296,7 +310,7 @@ a {
 #the-results ul li.result .equation {
   float: left;
   height: 100%;
-  font-style: italic;
+  font-style: oblique;
 }
 #the-results ul li.result .answer {
   position: absolute;
