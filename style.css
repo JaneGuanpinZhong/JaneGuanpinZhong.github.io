@@ -61,17 +61,20 @@ a {
   font-family: 'Helvetica Neue LT Pro', 'Helvetica', sans-serif;
 
 }
+
 #the-calculator button .exponent,
 #the-calculator input .exponent,
 #the-calculator #total .exponent {
   font-size: 0.6em;
   position: absolute;
 }
+
 #the-calculator button .denominator,
 #the-calculator input .denominator,
 #the-calculator #total .denominator {
   position: relative;
 }
+
 #the-calculator button .denominator .denom-top,
 #the-calculator input .denominator .denom-top,
 #the-calculator #total .denominator .denom-top {
@@ -79,11 +82,13 @@ a {
   position: absolute;
   left: -8px;
 }
+
 #the-calculator button .denominator .denom-slash,
 #the-calculator input .denominator .denom-slash,
 #the-calculator #total .denominator .denom-slash {
   padding: 0px 2px;
 }
+
 #the-calculator button .denominator .denom-btm,
 #the-calculator input .denominator .denom-btm,
 #the-calculator #total .denominator .denom-btm {
@@ -94,6 +99,7 @@ a {
 #the-calculator #the-display {
   width: 100%;
 }
+
 #the-calculator #the-display #total {
   width: 98%;
   margin: 0 auto 8px;
@@ -113,6 +119,7 @@ a {
 #the-calculator #the-buttons {
   width: 100%;
 }
+
 #the-calculator #the-buttons #extra-buttons {
   margin-top: 12px;
   padding-top: 12px;
@@ -135,6 +142,7 @@ a {
   content: "";
   display: table;
 }
+
 #the-calculator #the-buttons .button-row:after {
   clear: both;
 }
@@ -162,6 +170,7 @@ a {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+
 #the-calculator #the-buttons .button-row button:hover,
 #the-calculator #the-buttons .button-row button.hovering {
   border-width: 1px 0px 0px 1px;
@@ -201,6 +210,7 @@ a {
   color: #00544b;
   text-shadow: 1px 1px 0px #fff;
 }
+
 #the-results {
   width: 43%;
   float: right;
@@ -231,6 +241,7 @@ a {
   right: 0;
   top: 105%;
 }
+
 #the-results ul {
   height: 340px;
   overflow-y: scroll;
@@ -243,6 +254,7 @@ a {
   box-shadow: inset 0px 0px 64px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 #the-results ul li {
   font-size: 0.8em;
   width: 100%;
@@ -253,6 +265,7 @@ a {
   height: 40px;
   line-height: 40px;
 }
+
 #the-results ul li#result_default {
   /*padding-left: 24px;*/
   text-align: center;
@@ -260,6 +273,7 @@ a {
   font-style: italic;
   font-weight: 200;
 }
+
 #the-results ul li.result {
   display: none;
   font-size: 0.8em;
@@ -269,25 +283,31 @@ a {
   position: relative;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 #the-results ul li.result:before,
 #the-results ul li.result:after {
   content: "";
   display: table;
 }
+
 #the-results ul li.result:after {
   clear: both;
 }
+
 #the-results ul li.result:before,
 #the-results ul li.result:after {
   content: "";
   display: table;
 }
+
 #the-results ul li.result:after {
   clear: both;
 }
+
 #the-results ul li.result:nth-child(even) {
   background: rgba(255, 255, 255, 0.15);
 }
+
 #the-results ul li.result:nth-child(even) .answer {
   background: #103f3a;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0d332f), color-stop(1, #103f3a));
@@ -296,6 +316,7 @@ a {
   background: -o-linear-gradient(#103f3a, #0d332f);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#103f3a', endColorstr='#0d332f', GradientType=0);
 }
+
 #the-results ul li.result .equation,
 #the-results ul li.result .answer {
   display: inline-block;
@@ -307,11 +328,13 @@ a {
   height: 60px;
   line-height: 40px;
 }
+
 #the-results ul li.result .equation {
   float: left;
   height: 100%;
   font-style: oblique;
 }
+
 #the-results ul li.result .answer {
   position: absolute;
   right: 52px;
@@ -324,9 +347,11 @@ a {
   background: -o-linear-gradient(#0e3733, #0b2b27);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0e3733', endColorstr='#0b2b27', GradientType=0);
 }
+
 #the-results ul li.result .use {
   height: 100%;
 }
+
 #the-results ul li.result .use a {
   background: #008779;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #006359), color-stop(1, #008779));
@@ -350,6 +375,7 @@ a {
   color: #f9f9f9;
   text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
 }
+
 #the-results ul li.result .use a:hover,
 #the-results ul li.result .use aactive {
   -moz-opacity: 0.7;
