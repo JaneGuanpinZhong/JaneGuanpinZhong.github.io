@@ -1,5 +1,5 @@
 /*
-** global vars
+** global variables
 */
 
 var a = 0,
@@ -13,8 +13,6 @@ var a = 0,
   is_submission = false,
   soft_sub = false,
   display = jQuery('#total');
-
-
 
 /*
 ** tool functions
