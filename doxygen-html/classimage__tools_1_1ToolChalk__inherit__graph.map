@@ -1,3 +1,0 @@
-<map id="image_tools::ToolChalk" name="image_tools::ToolChalk">
-<area shape="rect" id="node2" href="$classimage__tools_1_1Tool.html" title="The base class for an image editing tool. Every tool &quot;has a&quot; mask. Subclasses must define this mask b..." alt="" coords="22,5,147,32"/>
-</map>
